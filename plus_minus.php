@@ -16,11 +16,11 @@ function plusMinus($arr) {
     $negative = 0;
     $zerovalues =0;
     
-    for($i=0; $i < $n; ++$i){
+    for($i=0; $i < $n; $i++){
         if($arr[$i] > 0){
            $positive++;
         }
-         elseif($arr[$i] < 0){
+         elseif($arr[$i] < 0){bm
             $negative++;
          }
          else{
